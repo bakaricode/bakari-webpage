@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Creepster&family=Indie+Flower&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: blue;
+}
+
+header {
+  background-color: #F1D6DC;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main {
+  
+}
+footer {
+  background-color: purple;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+  align-items: center;
+  background-color: purple;
+}
+nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+nav a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  
+}
